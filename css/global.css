@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  margin-top: 20px;
+  padding-top: 40px;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  font-weight: lighter;
+}
+
+h3,
+nav {
+  font-size: 2.0625rem;
+  font-weight: 300;
+  font-weight: lighter;
+}
+
+nav a,
+button {
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.icons {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.BlueText {
+  color: #5bacc3;
+}

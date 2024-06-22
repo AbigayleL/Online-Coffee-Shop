@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+/* All current nav bar, next implementation make it global*/
+
+.navbar {
+  width: 100%;
+  background-color: #fff0ed;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.navbar .BlueText {
+  color: #5bacc3;
+}
+
+.navbar nav {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+.navbar h2 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/*
+    Hero
+*/
+
+nav {
+  background-color: #fff0ed;
+}
+
+.SubHead {
+  background-color: #fff0ed;
+  margin-bottom: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-button {
+  margin-top: 40px;
+  width: 180px;
+  position: absolute;
+}
+
+.border-Shop-Button {
+  border: 2px solid black;
+  width: 180px;
+  height: 64px;
+  position: absolute;
+  top: -4px;
+  left: -3px;
+}
+
+.SubHead__Leftside {
+  vertical-align: top;
+  text-align: left;
+  padding: 20px;
+  margin-left: 80px;
+  padding-top: 80px;
+  width: 50%;
+}
+
+.SubHead__Leftside p {
+  width: 25%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.SubHead__Rightside {
+  padding: 40px;
+  text-align: left;
+  width: 50%;
+}
+
+.SubHead__Rightside img {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: #5bacc3;
+  width: 180px;
+  padding: 20px;
+  color: white;
+  border: none;
+}
+
+/*Products*/
+
+.products {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+}
+
+.products .BlueText {
+  font-size: 2.0625rem;
+}
+
+.Product_Cards {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  align-items: baseline;
+  width: 330px;
+  height: 440px;
+  padding: 20px 0px;
+  margin: 20px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.imageProd {
+  max-height: 250px;
+}
+
+.products-text {
+  display: flex;
+  margin-top: 20px;
+  background-color: #fff0ed;
+  width: 330px;
+  height: 146px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.grey {
+  color: #909090;
+}
+
+.view-button {
+  align-items: center;
+}
+
+.Viewbutton {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.border-view-Button {
+  border: 2px solid black;
+  width: 180px;
+  height: 64px;
+  position: absolute;
+  top: 1455px;
+  left: 600px;
+}
+
+.Viewbutton a {
+  text-decoration: none;
+}
+/*Different Section*/
+
+.different-left {
+  width: 25%;
+}
+.moreicons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.different {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.different-right {
+  padding: 40px;
+  text-align: left;
+  width: 400px;
+  height: 400px;
+  width: 30%;
+  background-image: url(../assets/coldbrewbackground.png);
+}
+
+.rightborder {
+  width: 400px;
+  height: 400px;
+  border: 5px solid #5bacc3;
+  position: absolute;
+  top: 15px;
+  left: 835px;
+}
+
+.centerimage {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/*Discount section*/
+
+.discountsection {
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.discount {
+  text-align: center;
+  background-color: #393939;
+  color: white;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.discount p {
+  font-size: 2.8125rem;
+  font-weight: 400;
+}
+.bold {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #fff0ed;
+}
+footer h3 {
+  font-size: 2.0625rem;
+  font-weight: 300;
+  font-weight: lighter;
+}
+
+.Hours,
+.Address {
+  margin-bottom: 20px;
+}
+
+.Hours,
+.Address,
+.Social {
+  display: inline-block;
+  margin: 40px;
+  margin-left: 80px;
+  vertical-align: top;
+}
+
+.floatersl {
+  float: left;
+  width: 120px;
+  opacity: 25%;
+  position: relative;
+  left: -50px;
+}
+
+.floatersr {
+  float: right;
+  width: 120px;
+  opacity: 25%;
+  position: relative;
+  bottom: -100px;
+  right: 50px;
+}
